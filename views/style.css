@@ -1,0 +1,433 @@
+/*HEADER*/
+
+
+html {
+  height: 100%;
+}
+
+
+#controler {
+  /*a faire 17/06/2015*/
+}
+
+header {
+  float:left;
+  margin:0 0 30px 0;
+  padding:5px 0 0 0;
+  width:100%;
+}
+
+#logo {
+  text-align:center;
+  margin:0;
+}
+
+#logo h1 {
+  font-family: 'Audiowide', cursive;
+  font-size:4.0em
+}
+
+#logo h2 {
+
+}
+
+h1 {
+  font-family:'Nunito' , sans-serif;
+  margin:15px 0;
+  font-size:1.75em;
+  font-weight:normal;
+  line-height:0.8;
+}
+
+h2 {
+  font-size:1.75em;
+  margin: -5px 0 0;
+  font-weight:0.8em;
+}
+
+
+
+/*image centré*/
+.katana {
+  text-align:center;
+  margin:left;
+  decoration:none;
+
+}
+
+.netrunner {
+  text-align:center;
+  margin:left;
+  decoration:none;
+
+}
+
+img {
+  margin: auto;;
+  padding-right: 0.5cm;
+  display: block;
+}
+
+.logobbq {
+  border-radius: 200%;
+}
+
+.valley {
+  text-align:center;
+  margin:left;
+  decoration:none;
+
+}
+
+
+/*INput index*/
+
+#content input{
+  margin: auto;
+  padding-right: 10%;
+  display: block;
+
+}
+
+#content span.label {
+  margin: auto;
+  padding-right: 10%;
+  display: block;
+}
+
+
+/*GALLERIE DE LA PAGE JEUX*/
+
+.galleriejeux {
+  padding:1%;
+  text-align:center;
+
+}
+
+  span {
+  color:black;
+
+}
+
+li {
+  list-style:none;
+}
+
+
+
+
+
+/*config generale*/
+
+
+a{
+  text-decoration:none;
+}
+
+.contenu p {
+  text-align:left;
+  box-sizing: border-box;
+  margin: 10px 0;
+
+}
+
+
+.p1 {
+
+ display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+
+#mail a {
+  text-align: center;
+}
+
+
+/*NAvigation*/
+nav {
+  text-align:center;
+
+}
+
+nav ul {
+  list-style:none;
+  margin:0 10px;
+  padding:0;
+}
+
+nav li {
+  display:inline-block;
+}
+
+nav a {
+  font-weight:800;
+  padding:15px 10px;
+
+}
+
+footer  {
+   font-size:0.75em;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   padding: 1rem;
+   text-align: center;
+   color: #00B6E3;
+   font-family: 'Quicksand',sans-serif;
+
+
+
+
+}
+
+
+.youtube {
+  text-align:center;
+  padding:1%;
+}
+
+
+
+
+
+
+/*Couleur de la page*/
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color:#EFFBFF;
+  color:#EFFBFF;
+}
+
+header {
+  background:black;
+  border-color:#599a68;
+}
+
+nav {
+  background:#EEE9E5;
+}
+
+h1, h2 {
+  color:#fff;
+}
+
+a {
+  color:white;
+}
+
+nav a, nav a:visited {
+  color:#00B6E3;
+}
+
+nav a.selected, nav a:hover {
+ color:#32673f;
+
+
+}
+
+
+
+
+
+/*Article mise en forme de chaque page*/
+
+
+article {
+  float: left;
+  width: 23%;
+  background: #4BB5C1;
+  margin: 10px 1%;
+  padding: 1%;
+}
+
+
+#datapack {
+float:right;
+
+}
+
+
+#articlevalley {
+  display:block;
+    width: 1000px;
+    height: 1200px;
+    text-align:center;
+    /*left: 35%;
+    margin-left: -70px;*/
+    margin-left: auto;
+    margin-right: auto;
+    overflow:auto;
+    border-color:#4BB5C1;
+}
+
+#articlevalley a {
+  color:black;
+}
+
+
+
+
+/*Overlay FormImage*/
+#overlay {
+background:rgba(5,20,0,0.7);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#overlay img {
+margin-top:10%;
+}
+
+#overlay p {
+color:white;
+}
+
+
+/*PODCAST Lecteur*/
+
+iframe {
+
+  position:center;
+}
+
+/**/BOX login/**/
+
+.idMenu {
+
+  font-size:30px;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: ##EEE9E5;
+}
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+h3 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+
+
+
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  text-decoration: none;
+  text-decoration-line: none;
+  decoration:none;
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4BB5C1;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+button a.visited {
+  color: white;
+}
+
+#homeButton a.visited {
+  color: #FFF;
+  decoration:none;
+
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #4BB5C1;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+
+
+  #articlevalley {
+    width:480px;
+  }
+
+  form {
+    max-width: 480px;
+  }
+
+}
+
+
+
+
+
+@media all and (max-width: 900px) {
+
+  #articlevalley {
+    width:48%;
+  }
+article {
+    width: 48%;
+  }

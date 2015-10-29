@@ -1,0 +1,17 @@
+{
+  "name": "builder",
+  "version": "1.0.0",
+  "description": "LOTR builder ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahma",
+  "license": "ISC",
+  "dependencies": {
+    "email-templates": "^2.0.0-beta.4",
+    "express": "^4.12.4",
+    "jade": "^1.11.0",
+    "mongoose": "^4.0.6"
+  }
+}

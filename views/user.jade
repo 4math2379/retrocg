@@ -1,0 +1,57 @@
+<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+
+html
+  head
+      title Storytelling
+      style
+        include main.css
+        
+
+
+
+<body style="background-color:#EEE9E5;">
+      
+form(action='jsonString', method='post')
+      h1 Storytelling
+      fieldset
+        legend
+          span.number 1
+          |  Who are you ?
+        label(for='name') Nickname:
+        input#name(type='text', name='user_name')
+        label(for='email') Email:
+        input#email(type='email', name='user_email')
+        br
+      fieldset
+        legend
+          span.number 2
+          |  The Tale
+        label(for='bio') Tell us about your story whit this deck
+        textarea#bio(name='user_bio')
+        label(for='Games')  Games 
+        select#job(name='user_job')
+          optgroup(label='CCG')
+            option(value='MECCG') Middle earth CCG
+            option(value='Mythos') Mythos
+            option(value='Rage') Rage "Werewolf The Apocalypse"
+            option(value='VTES') Vampire: The Eternal Struggle
+          optgroup(label='Traditional cards')
+            option(value='tarot') Tarots 
+            option(value='shaper') Bee 
+            option(value='Bicycle') Bicycle
+            input(type='file', name='datafile', size='40')
+      button(type='submit')  Submit
+      button(type='submit')  
+        a(href='index') Home
+
+    
+    
+    
+    
+    
+    
+    
+<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="formImage.js"></script>
+
+    
